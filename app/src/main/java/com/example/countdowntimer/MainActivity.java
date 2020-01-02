@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (tag.equals(TAG_SOUND3)) {
                 mediaPlayer = MediaPlayer.create(this, R.raw.decision21);
             } else {
-                mediaPlayer = MediaPlayer.create(this, R.raw.decision24);
+                mediaPlayer = MediaPlayer.create(this, R.raw.purring);
             }
 
             mediaPlayer.setLooping(false);
