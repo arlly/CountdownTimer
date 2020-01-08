@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">CountDownTimer</string>
-    <string name="start">スタート</string>
+    <string name="start">すたーと</string>
     <string name="reset">リセット</string>
     <string name="_00_00">00:00</string>
+    <string name="startButton">スタートします！</string>
 </resources>
