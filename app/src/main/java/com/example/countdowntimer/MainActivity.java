@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private SoundPool soundPool;
     private int soundId;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -126,13 +127,13 @@ public class MainActivity extends AppCompatActivity {
     private void playSound(String tag) {
         try {
             if (tag.equals(TAG_SOUND1)) {
-                mediaPlayer = MediaPlayer.create(this, R.raw.decision12);
+                mediaPlayer = MediaPlayer.create(this, R.raw.cat1a);
             } else if (tag.equals(TAG_SOUND2)) {
-                mediaPlayer = MediaPlayer.create(this, R.raw.decision16);
+                mediaPlayer = MediaPlayer.create(this, R.raw.cat1b);
             } else if (tag.equals(TAG_SOUND3)) {
                 mediaPlayer = MediaPlayer.create(this, R.raw.decision21);
             } else {
-                mediaPlayer = MediaPlayer.create(this, R.raw.decision24);
+                mediaPlayer = MediaPlayer.create(this, R.raw.purring);
             }
 
             mediaPlayer.setLooping(false);
